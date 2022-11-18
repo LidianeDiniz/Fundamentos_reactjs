@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Post } from "./Post";
+import { Sidebar } from "./components/Sidebar";
 import './global.css';
 import style from "./App.module.css";
 export function App() {
@@ -7,7 +8,7 @@ export function App() {
         <div>
             <Header />
             <div className={style.wrapper}>
-                <aside>sidebar</aside>
+                <Sidebar />
                 <main>
                     <Post
                         author="Lidiane Diniz"
