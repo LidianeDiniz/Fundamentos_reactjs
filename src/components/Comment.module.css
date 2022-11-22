@@ -73,11 +73,13 @@
     align-items: center;
     gap: 0.6rem;
     cursor: pointer;
+    border-radius: 2px;
 
 }
 
 .commentBox footer button:hover{
     color: var(--green-300);
+   
 }
 
 .commentBox footer button span::before{
