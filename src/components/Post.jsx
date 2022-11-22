@@ -20,11 +20,15 @@ export function Post() {
       <div className={styles.content}>
         <p>Fala pessoal 👋</p>
 
-       <p> Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪🏻</p>
+       <p> Fala galeraa 👋 Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀 👉</p>
 
-       <p> Acesse e deixe seu feedback 👉 <a href="" ></a>devonlane.design</p>
-
-        <p><a herf="">#uiux #userexperience </a></p>
+       <p> Acesse e deixe seu feedback</p>
+       <p>👉{' '}<a href="" >jane.design/doctorcare</a></p>
+        <p>
+          <a href="">#novoprojeto</a>{' '}
+          <a href="">#nlw </a>{' '}
+          <a href="">#rocketseat</a>
+        </p>
 
       </div>
     </article>
