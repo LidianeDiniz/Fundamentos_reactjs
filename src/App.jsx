@@ -24,7 +24,7 @@ const posts = [
       { type: "link", content: "jane.design/doctorcare" },
     ],
 
-    publishedAt: new Date('2022-11-15 20:00:00'),
+    publishedAt: new Date('2022-11-19 20:00:00'),
   },
 
   {
@@ -54,15 +54,15 @@ export function App() {
         <Sidebar />
         <main>
         { posts.map(post =>{
-            return 
-            (
-            <Post
-            author={post.author}
-            content={post.content}
-            publishedAt={post.publishedAt}
-            
-            />
+            return (
+                <Post
+                author={post.author}
+                content={post.content}
+                publishedAt={post.publishedAt}
+
+                />
             )
+           
         })}
 
         </main>
